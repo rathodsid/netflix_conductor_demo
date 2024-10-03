@@ -4,11 +4,11 @@ import com.netflix.conductor.client.worker.Worker;
 import com.netflix.conductor.common.metadata.tasks.Task;
 import com.netflix.conductor.common.metadata.tasks.TaskResult;
 
-public class MultiplyBy2 implements Worker {
+public class StoreReviews implements Worker {
 
     private final String taskDefName;
 
-    public MultiplyBy2(String taskDefName) {
+    public StoreReviews(String taskDefName) {
         this.taskDefName = taskDefName;
     }
 
